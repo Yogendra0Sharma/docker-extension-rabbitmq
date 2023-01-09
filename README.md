@@ -6,6 +6,8 @@
 
 You can try it now! [![Install RabbitMQ extension](https://img.shields.io/badge/-Install%20RabbitMQ%20extension-white?logo=docker)](https://open.docker.com/extensions/marketplace?extensionId=yogendra0sharma/rabbitmq-docker-extension&tag=latest)
 
+:information_source: Use **guest** as **username** and **password**.
+ 
 ### Pre-requisite
 
 - Docker Desktop 4.12
@@ -35,7 +37,6 @@ export COMPOSE_DOCKER_CLI_BUILD=0
 ```shell
  docker extension install <name-of-extension>
  ```
- 
  
  Open Docker Dashboard to see RabbitMQ Extension already up and running.
  
