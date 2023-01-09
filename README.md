@@ -39,5 +39,5 @@ export COMPOSE_DOCKER_CLI_BUILD=0
  
  Open Docker Dashboard to see RabbitMQ Extension already up and running.
  
-# Cradits
-Thanks [Ajeet Singh Raina](https://github.com/collabnix/redisinsight-docker-extension)] for inspiration.
+## Cradits
+Thanks [Ajeet Singh Raina](https://github.com/collabnix/redisinsight-docker-extension) for inspiration.
