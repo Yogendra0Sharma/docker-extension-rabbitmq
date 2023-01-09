@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-You can try it now! [![Install RabbitMQ extension](https://img.shields.io/badge/-Install%20RabbitMQ%20extension-white?logo=docker)](https://open.docker.com/extensions/marketplace?extensionId=yogendra0sharma/rabbitmq-docker-extension&tag=latest)
+You can try it now! [![Install RabbitMQ extension](https://img.shields.io/badge/-Install%20RabbitMQ%20extension-white?logo=docker)](https://open.docker.com/extensions/marketplace?extensionId=yogendra0sharma/rabbitmq-docker-extension&tag=0.0.1)
 
 :information_source: Use **guest** as **username** and **password**.
  

@@ -24,6 +24,9 @@ push-extension: prepare-buildx ## Build & Upload extension image to hub. Do not 
 validate-extension: ## Validate your extension
 	docker extension validate $(IMAGE):$(TAG)
 
+enable-buildx:
+	docker buildx inspect --bootstrap
+
 help: ## Show this help
 	@echo Please specify a build target. The choices are:
 	@grep -E '^[0-9a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "$(INFO_COLOR)%-30s$(NO_COLOR) %s\n", $$1, $$2}'
